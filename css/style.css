@@ -216,4 +216,27 @@ img[src*="consultorio"] {
     height: 180px;
   }
 }
+/* Força todos os testimonials a terem o mesmo tamanho */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Padroniza TODAS as imagens de testimonial */
+.testimonial-img {
+  width: 300px !important;
+  height: 220px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 14px;
+  margin: 0 auto 20px;
+}
+
+/* Garante que o primeiro NÃO fique diferente */
+.testimonial:first-child .testimonial-img {
+  width: 300px !important;
+  height: 220px !important;
+}
 
