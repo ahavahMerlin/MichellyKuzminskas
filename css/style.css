@@ -174,4 +174,19 @@ section {
     height: 260px;
   }
 }
+.instagram-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.instagram-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-media {
+  margin: 0 auto !important;
+  max-width: 540px !important;
+  width: 100% !important;
+}
 
