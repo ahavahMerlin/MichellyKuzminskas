@@ -189,4 +189,14 @@ section {
   max-width: 540px !important;
   width: 100% !important;
 }
+img[src*="consultorio"] {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: contain;
+  background: #f5f5f5;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 20px;
+}
 
